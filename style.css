@@ -1,0 +1,132 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  body {
+    background-image: url(https://eskipaper.com/images/nice-backgrounds-5.jpg;);
+  }
+  #title {
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 5vw;
+    line-height: 0.9;
+    margin-top: 30px;
+  }
+  @media (max-width: 460px) {
+    #title {
+      font-size: 6vw;
+    }
+  }
+  p {
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 12px;
+    font-size: 2vw;
+    line-height: 0.1;
+  }
+  @media (max-width: 460px) {
+    p {
+      font-size: 3vw;
+      line-height: 1;
+    }
+  }
+  #image {
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 10px;
+    border-color: green;
+    margin-top: 40px;
+  }
+  #img-caption {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 10px;
+  }
+  footer {
+    background: white;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    overflow: auto;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+  }
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 2.7vw;
+      line-height: 1.2;
+    }
+  }
+  h2 {
+    color: white;
+    font-family: roboto;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  @media (max-width: 460px){
+   h2 {
+      font-size: 4vw;
+     margin-left: 5px;
+     margin-right: 5px;
+    }
+  }
+  ol {
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+  }
+  @media (max-width: 460px){
+  ol {
+      font-size: 3.5vw;
+    text-align: left;
+    color: white;
+    margin: 0 auto 50px auto;
+    }
+  footer {
+    background: white;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    overflow: auto;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+  }
+  @media (max-width: 460px){
+  #tribute-link {
+      font-size: 3vw !important;
+    }
+    @media (max-width: 460px){
+  #tribute-link:hover {
+      color: green !important;
+    }
+      @media (max-width: 460px){
+  #tribute-link:visited {
+      color: blue !important;
+    } 
+  #tribute-link:hover {
+    color: green !important;
+  }
+  #tribute-link:visited {
+    color: blue;
+  }
+        ol{
+          margin: 20px;
+        }      
+        img{
+        max-width: 100%;
+    height: auto;
+        }
